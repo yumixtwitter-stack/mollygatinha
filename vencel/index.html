@@ -508,7 +508,7 @@
         audio.play().then(() => {
           isMusicPlaying = true;
           musicControl.style.display = 'flex';
-          musicStatus.textContent = '🎵 É Você - Tribalistas';
+          musicStatus.textContent = 'É Você - Tribalistas';
           musicControl.style.cursor = 'default';
         }).catch(err => {
           console.log('Autoplay bloqueado pelo navegador:', err);
@@ -520,7 +520,7 @@
             if (audio && !isMusicPlaying) {
               audio.play().then(() => {
                 isMusicPlaying = true;
-                musicStatus.textContent = '🎵 É Você - Tribalistas';
+                musicStatus.textContent = 'É Você - Tribalistas';
                 musicControl.style.cursor = 'default';
                 musicControl.onclick = null;
               }).catch(e => console.log('Erro ao tocar:', e));

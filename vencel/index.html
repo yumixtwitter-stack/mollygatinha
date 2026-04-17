@@ -470,7 +470,7 @@
       audio.addEventListener('canplaythrough', () => {
         console.log('✅ Música carregada com sucesso!');
         if (musicStatus) {
-          musicStatus.textContent = '🎵 É Você - Tribalistas';
+          musicStatus.textContent = 'É Você - Tribalistas';
         }
       });
       
@@ -490,7 +490,7 @@
           
           audio.addEventListener('canplaythrough', () => {
             console.log('✅ Música carregada com fallback!');
-            musicStatus.textContent = '🎵 É Você - Tribalistas';
+            musicStatus.textContent = 'É Você - Tribalistas';
           });
           
           audio.addEventListener('error', () => {
